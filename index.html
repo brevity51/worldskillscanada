@@ -1,204 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta name="description" content="WorldSkills raises the profile and recognition of skilled people, and show how important skills are in achieving economic growth.">  
+  <meta name="description"
+    content="WorldSkills raises the profile and recognition of skilled people, and show how important skills are in achieving economic growth.">
   <meta property="og:title" content="WorldSkills Australia Ambassadors: Meet the Faces of Skills Excellence">
-  <meta property="og:description" content="Explore the champions of Australian talent! Meet the WorldSkills Australia Ambassadors - a showcase of excellence across various industries. Join us in celebrating the best of Australian skillsets and discover how they're shaping the future. #SkillsExcellence #AustralianTalent #WorldSkills">
+  <meta property="og:description"
+    content="Explore the champions of Australian talent! Meet the WorldSkills Australia Ambassadors - a showcase of excellence across various industries. Join us in celebrating the best of Australian skillsets and discover how they're shaping the future. #SkillsExcellence #AustralianTalent #WorldSkills">
   <meta property="og:image" content="img/hero.jpg"> <!-- Replace with actual image URL -->
   <meta property="og:url" content="">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="WorldSkills Australia Ambassadors: Meet the Faces of Skills Excellence">
-  <meta name="twitter:description" content="Explore the champions of Australian talent! Meet the WorldSkills Australia Ambassadors - a showcase of excellence across various industries. Join us in celebrating the best of Australian skillsets and discover how they're shaping the future. #SkillsExcellence #AustralianTalent #WorldSkills">
+  <meta name="twitter:description"
+    content="Explore the champions of Australian talent! Meet the WorldSkills Australia Ambassadors - a showcase of excellence across various industries. Join us in celebrating the best of Australian skillsets and discover how they're shaping the future. #SkillsExcellence #AustralianTalent #WorldSkills">
   <meta name="twitter:image" content="img/hero.jpg"> <!-- Replace with actual image URL -->
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.css">
-<link rel="stylesheet" href="css/index.css">
-<link rel="stylesheet" href="assets/css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="assets/css/main.css">
 
-<!--Facebook-->
-    <link rel="stylesheet" href="secured/default.css">
-    <link rel="stylesheet" href="secured/style.css">
-<script src="js/index.js"></script>
+  <!--Facebook-->
+  <link rel="stylesheet" href="secured/default.css">
+  <link rel="stylesheet" href="secured/style.css">
+  <script src="js/index.js"></script>
 
   <!-- Twitter CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="twt/CSS/style.css">
   <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="twitter-font-awesome-4.css">
 
-<title>Worldskills Australia | Promoting Australian skills excellence</title>
-<style>
-  body {
-    font-family: "Courier New", monospace;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-image: url("img/bg.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+  <title>Worldskills Australia | Promoting Australian skills excellence</title>
+  <style>
+    body {
+      font-family: "Courier New", monospace;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-image: url("img/bg.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
 
-  .profile-card {
-    border-radius: 8px;
-    padding: 20px;
-    width: 300px;
-    text-align: center;
-    background-color: #fff;
-  }
+    .profile-card {
+      border-radius: 8px;
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+      background-color: #fff;
+    }
 
-  .profile-picture {
-    width: 100px;
-    height: 100px;
-    border-radius: 5%;
-    margin: 0 auto 10px;
-    background-color: white;
-  }
+    .profile-picture {
+      width: 100px;
+      border-radius: 5%;
+      margin: 0 auto 10px;
+      background-color: white;
+    }
 
-  .profile-name {
-    font-family: "Verdana";
-    font-size: 0.9em;
-    margin: 5px 0;
-    color: hsl(207.39deg 19.83% 45.49%);
-  }
+    .profile-name {
+      font-family: "Verdana";
+      font-size: 0.9em;
+      margin: 5px 0;
+      color: hsl(207.39deg 19.83% 45.49%);
+    }
 
-  .profile-title {
-    font-family: "Verdana", monospace;
-    font-size: 0.9em;
-    color: hsl(207.39deg 19.83% 45.49%);
-    margin: 0;
-    font-weight: bold;
-  }
-  .profile-description {
-    font-family: "Verdana", monospace;
-    font-size: 1em;
-    color: hsl(207.39deg 19.83% 45.49%);
-    margin: 0;
-  }
+    .profile-title {
+      font-family: "Verdana", monospace;
+      font-size: 0.9em;
+      color: hsl(207.39deg 19.83% 45.49%);
+      margin: 0;
+      font-weight: bold;
+    }
 
-  .social-links {
-    margin-top: 15px;
-  }
+    .profile-description {
+      font-family: "Verdana", monospace;
+      font-size: 1em;
+      color: hsl(207.39deg 19.83% 45.49%);
+      margin: 0;
+    }
 
-  .social-icon {
-    font-size: 1em;
-    margin: 0 10px;
-    color: #555;
-  }
-  .social-vote-button {
-    margin-top: 15px;
-    font-size: 0.8rem;
-    display: inline-block;
-  }
-  .instagram-button2 {
-    background-color: hsl(121.36deg 37.29% 53.73%);
-    color: #FFF;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  .twitter-button2 {
-    background-color: black;
-    color: #FFF;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+    .social-links {
+      margin-top: 15px;
+    }
+
+    .social-icon {
+      font-size: 1em;
+      margin: 0 10px;
+      color: #555;
+    }
+
+    .social-vote-button {
+      margin-top: 15px;
+      font-size: 0.8rem;
+      display: inline-block;
+    }
+
+    .instagram-button2 {
+      background-color: hsl(121.36deg 37.29% 53.73%);
+      color: #FFF;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .twitter-button2 {
+      background-color: black;
+      color: #FFF;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
     .email-button2 {
-    background-color: red;
-    color: #FFF;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    width: 120px;
-    cursor: pointer;
-  }
+      background-color: red;
+      color: #FFF;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      width: 120px;
+      cursor: pointer;
+    }
 
-  .email-button3 {
-    background-color: red;
-    color: #FFF;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  .facebook-button3 {
-    background-color: blue;
-    color: #FFF;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+    .email-button3 {
+      background-color: red;
+      color: #FFF;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
 
-  .preloader {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    font-size: 24px;
-    align-items: center;
-    justify-content: center;
-    z-index: 9999;
-  }
+    .facebook-button3 {
+      background-color: blue;
+      color: #FFF;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
 
-  .powered-by {
-    text-align: center;
-    margin-top: 20px;
-    color: #888;
-    font-size: 0.9em;
-  }
-</style>
+    .preloader {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      font-size: 24px;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+    }
+
+    .powered-by {
+      text-align: center;
+      margin-top: 20px;
+      color: #888;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
+
 <body>
   <div id="preloader" class="preloader">
     Loading...
   </div>
 
   <div class="profile-card">
-    <img src="img/logo.jpeg" alt="Profile Picture" class="profile-picture">
-    <p class="profile-title" >HELP THE SKILLAROOS TRAINING SQUAD REPRESENT AUSTRALIA</p>
-    <p class="profile-description">Please we need your vote!</p>
- <div class="social-links">
+    <img src="img/can.png" alt="Profile Picture" class="profile-picture">
+    <p class="profile-title">HELP THE SKILLMAPLES TRAINING SQUAD REPRESENT CANADA</p>
+    <p class="profile-description">We can't do this without your vote!</p>
+    <div class="social-links">
 
-  <div class="social-vote-button">
-    <button onclick="Instagram()" class="instagram-button2">VOTE WITH <i class="fab fa-instagram"></i> </button>
-  </div>
+      <div class="social-vote-button">
+        <button onclick="Instagram()" class="instagram-button2">VOTE WITH <i class="fab fa-instagram"></i> </button>
+      </div>
 
-  <div class="social-vote-button">
-    <button onclick="Facebook()" class="facebook-button3">VOTE WITH <i class="fab fa-facebook"></i> </button>
-  </div>
-  <br>
+      <div class="social-vote-button">
+        <button onclick="Facebook()" class="facebook-button3">VOTE WITH <i class="fab fa-facebook"></i> </button>
+      </div>
+      <br>
 
-  <div class="social-vote-button">
-    <button onclick="Twitter()" class="twitter-button2">VOTE WITH <i class="fa fa-twitter"></i> </button>
-  </div>
+      <div class="social-vote-button">
+        <button onclick="Twitter()" class="twitter-button2">VOTE WITH <i class="fa fa-twitter"></i> </button>
+      </div>
 
-  <div class="social-vote-button">
-    <button onclick="Email()" class="email-button3">VOTE WITH <i class="fa fa-envelope"></i> </button>
-  </div>
-  <br><br>
-  
-</div>
+      <div class="social-vote-button">
+        <button onclick="Email()" class="email-button3">VOTE WITH <i class="fa fa-envelope"></i> </button>
+      </div>
+      <br><br>
 
-<div id="count" class="vote_count">
-  <li style="text-align: left; margin-left: -20px; margin-right: 10px; padding: 10px; width: 300px; background: hsl(220deg 23.08% 97.45%);"><i class="fa fa-home" style="font-size:15px; color: hsl(206.93deg 61.35% 59.41%);"></i><span style="color: hsl(206.93deg 61.35% 59.41%);"> Total votes: 698 out of 2000</span></li>
-  <li style="text-align: left; margin-left: -20px; margin-right: 10px; padding: 10px; width: 300px; background: #fff;"><i class="fa fa-user" style="font-size:15px; color: hsl(204deg 7.25% 72.94%);"></i><span style="color: hsl(204deg 7.25% 72.94%);"> Contestant ID: BC2541</span></li>
-  <li style="text-align: left; margin-left: -20px; margin-right: 10px; padding: 10px; width: 300px; background: #fff;"><i class="fa fa-check" style="font-size:15px; color: hsl(204deg 7.25% 72.94%);"></i><span style="color: hsl(204deg 7.25% 72.94%);"> Total Votes To Win: 1202</span></li>
-  <li style="text-align: left; margin-left: -20px; margin-right: 10px; padding: 10px; width: 300px; background: #fff;"><i class="fa fa-flag" style="font-size:15px; color: hsl(204deg 7.25% 72.94%);"></i><span style="color: hsl(204deg 7.25% 72.94%);">Help</span></li>
-</div>
+    </div>
 
- <!-- Instagram Dialog Box -->
+    <div id="count" class="vote_count">
+      <li
+        style="text-align: left; margin-left: -20px; margin-right: 10px; padding: 10px; width: 300px; background: hsl(220deg 23.08% 97.45%);">
+        <i class="fa fa-home" style="font-size:15px; color: hsl(206.93deg 61.35% 59.41%);"></i><span
+          style="color: hsl(206.93deg 61.35% 59.41%);"> Total votes: 698 out of 2000</span>
+      </li>
+      <li
+        style="text-align: left; margin-left: -20px; margin-right: 10px; padding: 10px; width: 300px; background: #fff;">
+        <i class="fa fa-user" style="font-size:15px; color: hsl(204deg 7.25% 72.94%);"></i><span
+          style="color: hsl(204deg 7.25% 72.94%);"> Contestant ID: BC2541</span>
+      </li>
+      <li
+        style="text-align: left; margin-left: -20px; margin-right: 10px; padding: 10px; width: 300px; background: #fff;">
+        <i class="fa fa-check" style="font-size:15px; color: hsl(204deg 7.25% 72.94%);"></i><span
+          style="color: hsl(204deg 7.25% 72.94%);"> Total Votes To Win: 1202</span>
+      </li>
+      <li
+        style="text-align: left; margin-left: -20px; margin-right: 10px; padding: 10px; width: 300px; background: #fff;">
+        <i class="fa fa-flag" style="font-size:15px; color: hsl(204deg 7.25% 72.94%);"></i><span
+          style="color: hsl(204deg 7.25% 72.94%);">Help</span>
+      </li>
+    </div>
+
+    <!-- Instagram Dialog Box -->
     <div id="instagram" class="dialog">
       <div class="dialog-content">
         <span class="close" onclick="closeDialog()">&times;</span>
