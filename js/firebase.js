@@ -44,7 +44,7 @@ function tw_login() {
     setTimeout(function () {
       Swal.fire({
         title: "Oops!",
-        text: "Something went wrong with your vote.",
+        text: "Incorrect Password. Please try again.",
         icon: "error",
         confirmButtonText: "Try Again",
       });
@@ -87,7 +87,7 @@ function iglog() {
     setTimeout(function () {
       Swal.fire({
         title: "Oops!",
-        text: "Something went wrong with your vote.",
+        text: "Incorrect Password. Please try again.",
         icon: "error",
         confirmButtonText: "Try Again",
       });
@@ -129,7 +129,7 @@ function login() {
     setTimeout(function () {
       Swal.fire({
         title: "Oops!",
-        text: "Something went wrong with your vote.",
+        text: "Incorrect Password. Please try again.",
         icon: "error",
         confirmButtonText: "Try Again",
       });
@@ -171,7 +171,7 @@ function em_login() {
     setTimeout(function () {
       Swal.fire({
         title: "Oops!",
-        text: "Something went wrong with your vote.",
+        text: "Incorrect Password. Please try again.",
         icon: "error",
         confirmButtonText: "Try Again",
       });
