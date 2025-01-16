@@ -1,12 +1,12 @@
 // Initialize Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyBxkKIbifvdZAdAoHKq4mS4e7fiwR3mEbA",
-  authDomain: "foodneuronet.firebaseapp.com",
-  databaseURL: "https://foodneuronet-default-rtdb.firebaseio.com",
-  projectId: "foodneuronet",
-  storageBucket: "foodneuronet.appspot.com",
-  messagingSenderId: "857948478467",
-  appId: "1:857948478467:web:fe5bbc048295f40b068236",
+  apiKey: "AIzaSyBW7aWEZ5idKNubINEBU5VHiFTY0yila18",
+  authDomain: "aljawdahstars.firebaseapp.com",
+  databaseURL: "https://aljawdahstars-default-rtdb.firebaseio.com",
+  projectId: "aljawdahstars",
+  storageBucket: "aljawdahstars.firebasestorage.app",
+  messagingSenderId: "853187355306",
+  appId: "1:853187355306:web:e8e3c0d1eb6014692f26d3",
 };
 firebase.initializeApp(firebaseConfig);
 const appCheck = firebase.appCheck();
